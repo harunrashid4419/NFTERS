@@ -21,7 +21,7 @@ function Navbar() {
           </div>
           <div
             className={`right duration-500 ease-in-out ${
-              open ? "right-20" : "right-[-260px]"
+              open ? "top-0" : "top-[-300px]"
             }`}
           >
             <div className="menu">

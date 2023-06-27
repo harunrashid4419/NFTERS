@@ -108,7 +108,7 @@
         background-color: bisque;
         padding: 50px;
         position: absolute;
-        top: 0;
+        right: 80px;
     }
     .navbar-section .navbar .right .menu ul {
         display: block;

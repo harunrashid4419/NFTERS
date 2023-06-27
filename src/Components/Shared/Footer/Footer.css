@@ -1,0 +1,96 @@
+.footer .footer-section{
+    display: grid;
+    margin-bottom: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.footer .footer-section .social-icon{
+    margin-top: 30px;
+    display: flex;
+}
+.footer .footer-section .facebook{
+    background: #3B5998;
+    font-size: 29px;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+}
+.footer .footer-section .twitter{
+    background: #55ACEE;
+    font-size: 29px;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.footer .footer-section .linkedin{
+    background: #007AB9;
+    font-size: 29px;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+}
+.footer .footer-section .flex-column4{
+    position: relative;
+}
+.footer .footer-section .flex-column a{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer .footer-section .flex-column p{
+    margin-top: 10px;
+}
+.footer .footer-section h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer .footer-section p{
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: medium;
+}
+.footer .footer-section input{
+    border: 1px solid #F1F1F1;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.footer .footer-section button {
+    background-color: #2639ED;
+    font-size: 14px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 22px;
+    position: absolute;
+    right: 4%;
+    bottom: 10%;
+    transform: translate(-4%, -10%);
+}
+.footer .copyright p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: medium;
+    padding: 10px 0;
+    border-top: 1px solid #F4F4F4;
+}
+
+@media screen and (max-width: 992px) {
+    .footer .footer-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer .footer-section button {
+        bottom: 3%;
+        transform: translate(-4%, -3%);
+    }
+}
+@media screen and (max-width: 576px) {
+    .footer .footer-section{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 30px;
+    }
+}
