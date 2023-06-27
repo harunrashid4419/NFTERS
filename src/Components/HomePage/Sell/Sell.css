@@ -1,0 +1,85 @@
+.sell-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 100px 0;
+}
+.sell-section .first-img{
+    width: 300px;
+    height: 300px;
+}
+.sell-section .flex-column1{
+    direction: rtl;
+    position: relative;
+}
+.sell-section .flex-column2{
+    margin: 0 auto;
+    direction: rtl;
+    position: relative;
+}
+.sell-section .man-img{
+    position: absolute;
+    margin-top: -45px;
+    margin-right: -34px;
+}
+.sell-section .second-img{
+    width: 195px;
+    height: 215px;
+    margin-top: 50px;
+}
+.sell-section .third-img{
+    width: 240px;
+    height: 265px;
+}
+.sell-section .flex-column h1{
+    font-size: 32px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 260px;
+}
+.sell-section .flex-column p{
+    color: #636363;
+    font-weight: 300;
+    font-size: 16px;
+}
+.sell-section .flex-column button{
+    background-color: #3D00B7;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #3D00B7;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.sell-section .flex-column button:hover{
+    background-color: transparent;
+    border: 1px solid #3D00B7;
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    .sell-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sell-section .flex-column{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .sell-section{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+    .sell-section .flex-column{
+        margin-top: 0px;
+    }
+    .sell-section .flex-column1 {
+        margin: 0 auto;
+    }
+    .sell-section .flex-column h1{
+        max-width: 100%;
+    }
+    
+}
