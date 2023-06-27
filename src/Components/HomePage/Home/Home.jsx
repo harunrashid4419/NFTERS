@@ -1,4 +1,12 @@
+import Amazing from "../Amazing/Amazing";
+import Banner from "../Banner/Banner";
+
 function Home() {
-  return <div>home</div>;
+  return (
+    <>
+      <Banner />
+      <Amazing />
+    </>
+  );
 }
 export default Home;

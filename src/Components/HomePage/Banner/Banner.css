@@ -1,0 +1,70 @@
+.banner-section{
+    display: flex;
+    padding: 55px 0 100px 0;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.banner-section .left h1{
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 500px;
+}
+.banner-section .left p{
+    color: #565656;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0 15px 0;
+    max-width: 316px;
+}
+.banner-section .left button{
+    background-color: #3D00B7;
+    color: white;
+    font-size: 14px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 1px solid #3D00B7;
+    transition: .5s;
+}
+.banner-section .left button:hover{
+    background-color: transparent;
+    border: 1px solid #3D00B7;
+    color: black;
+}
+.banner-section .left .details{
+    display: flex;
+    margin-top: 20px;
+}
+.banner-section .middle{
+    padding: 0 10px;
+}
+.banner-section .left .details p{
+    font-size: 20px;
+    color: #565656;
+    margin: -14px 0 0 0;
+}
+.banner-section .right .first-img img{
+    position: absolute;
+    z-index: 99;
+    right: 4%;
+    transform: translateX(-4%);
+}
+.banner-section .right .second-img img{
+    position: absolute;
+    z-index: 9;
+    margin-top: 25px;
+    right: 2%;
+    transform: translateX(-2%);
+}
+.banner-section .right .third-img img{
+    margin-top: 50px;
+}
+.banner-section .right .fourth-img img{
+    position: absolute;
+    top: 61%;
+    left: 60%;
+    z-index: 99;
+    transform: translate(-60%, -61%);
+}

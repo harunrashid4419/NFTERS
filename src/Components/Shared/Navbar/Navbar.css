@@ -109,6 +109,7 @@
         padding: 50px;
         position: absolute;
         right: 80px;
+        z-index: 9999;
     }
     .navbar-section .navbar .right .menu ul {
         display: block;
